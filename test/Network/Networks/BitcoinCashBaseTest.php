@@ -1,11 +1,11 @@
 <?php
 
-namespace Btccom\BitcoinCash\Test\Network\Networks;
+namespace pingi\BitcoinCash\Test\Network\Networks;
 
-use Btccom\BitcoinCash\Network\Networks\BitcoinCash;
-use Btccom\BitcoinCash\Network\Networks\BitcoinCashRegtest;
-use Btccom\BitcoinCash\Network\Networks\BitcoinCashTestnet;
-use Btccom\BitcoinCash\Test\AbstractTestCase;
+use pingi\BitcoinCash\Network\Networks\BitcoinCash;
+use pingi\BitcoinCash\Network\Networks\BitcoinCashRegtest;
+use pingi\BitcoinCash\Network\Networks\BitcoinCashTestnet;
+use pingi\BitcoinCash\Test\AbstractTestCase;
 use BitWasp\Bitcoin\Network\Network;
 
 class BitcoinCashBaseTest extends AbstractTestCase

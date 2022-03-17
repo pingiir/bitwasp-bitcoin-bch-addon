@@ -1,9 +1,9 @@
 <?php
 
-namespace Btccom\BitcoinCash\Network\Networks;
+namespace pingi\BitcoinCash\Network\Networks;
 
-use Btccom\BitcoinCash\Exception\MissingCashAddressPrefix;
-use Btccom\BitcoinCash\Network\BitcoinCashNetworkInterface;
+use pingi\BitcoinCash\Exception\MissingCashAddressPrefix;
+use pingi\BitcoinCash\Network\BitcoinCashNetworkInterface;
 use BitWasp\Bitcoin\Network\Network;
 
 abstract class AbstractBitcoinCash extends Network implements BitcoinCashNetworkInterface

@@ -1,12 +1,12 @@
 <?php
 
-namespace Btccom\BitcoinCash\Test\Network;
+namespace pingi\BitcoinCash\Test\Network;
 
-use Btccom\BitcoinCash\Network\NetworkFactory;
-use Btccom\BitcoinCash\Network\Networks\BitcoinCash;
-use Btccom\BitcoinCash\Network\Networks\BitcoinCashRegtest;
-use Btccom\BitcoinCash\Network\Networks\BitcoinCashTestnet;
-use Btccom\BitcoinCash\Test\AbstractTestCase;
+use pingi\BitcoinCash\Network\NetworkFactory;
+use pingi\BitcoinCash\Network\Networks\BitcoinCash;
+use pingi\BitcoinCash\Network\Networks\BitcoinCashRegtest;
+use pingi\BitcoinCash\Network\Networks\BitcoinCashTestnet;
+use pingi\BitcoinCash\Test\AbstractTestCase;
 
 class NetworkFactoryTest extends AbstractTestCase
 {

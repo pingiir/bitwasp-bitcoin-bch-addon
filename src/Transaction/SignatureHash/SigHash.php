@@ -1,6 +1,6 @@
 <?php
 
-namespace Btccom\BitcoinCash\Transaction\SignatureHash;
+namespace pingi\BitcoinCash\Transaction\SignatureHash;
 
 class SigHash
 {

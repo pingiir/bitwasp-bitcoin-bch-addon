@@ -1,12 +1,12 @@
 <?php
 
-namespace Btccom\BitcoinCash\Script\Interpreter;
+namespace pingi\BitcoinCash\Script\Interpreter;
 
 use BitWasp\Bitcoin\Script\Interpreter\CheckerBase;
 use BitWasp\Bitcoin\Script\ScriptInterface;
 use BitWasp\Bitcoin\Transaction\SignatureHash\Hasher;
 use BitWasp\Bitcoin\Transaction\SignatureHash\SigHash;
-use Btccom\BitcoinCash\Transaction\SignatureHash\SigHash as BchSigHash;
+use pingi\BitcoinCash\Transaction\SignatureHash\SigHash as BchSigHash;
 use BitWasp\Bitcoin\Transaction\SignatureHash\V1Hasher;
 use BitWasp\Buffertools\Buffer;
 use BitWasp\Buffertools\BufferInterface;

@@ -1,15 +1,15 @@
 <?php
 
-namespace Btccom\BitcoinCash\Test\Address;
+namespace pingi\BitcoinCash\Test\Address;
 
 use BitWasp\Bitcoin\Network\NetworkInterface;
-use Btccom\BitcoinCash\Address\AddressCreator;
-use Btccom\BitcoinCash\Address\CashAddress;
-use Btccom\BitcoinCash\Network\BitcoinCashNetworkInterface;
-use Btccom\BitcoinCash\Network\Networks\BitcoinCash;
-use Btccom\BitcoinCash\Network\Networks\BitcoinCashRegtest;
-use Btccom\BitcoinCash\Network\Networks\BitcoinCashTestnet;
-use Btccom\BitcoinCash\Test\AbstractTestCase;
+use pingi\BitcoinCash\Address\AddressCreator;
+use pingi\BitcoinCash\Address\CashAddress;
+use pingi\BitcoinCash\Network\BitcoinCashNetworkInterface;
+use pingi\BitcoinCash\Network\Networks\BitcoinCash;
+use pingi\BitcoinCash\Network\Networks\BitcoinCashRegtest;
+use pingi\BitcoinCash\Network\Networks\BitcoinCashTestnet;
+use pingi\BitcoinCash\Test\AbstractTestCase;
 use BitWasp\Bitcoin\Address\Base58Address;
 use BitWasp\Bitcoin\Address\PayToPubKeyHashAddress;
 use BitWasp\Bitcoin\Address\ScriptHashAddress;

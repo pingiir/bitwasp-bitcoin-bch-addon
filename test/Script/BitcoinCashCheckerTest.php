@@ -1,10 +1,10 @@
 <?php
 
-namespace Btccom\BitcoinCash\Test\Script;
+namespace pingi\BitcoinCash\Test\Script;
 
-use Btccom\BitcoinCash\Script\Interpreter\BitcoinCashChecker;
-use Btccom\BitcoinCash\Test\AbstractTestCase;
-use Btccom\BitcoinCash\Transaction\SignatureHash\SigHash as BchSigHash;
+use pingi\BitcoinCash\Script\Interpreter\BitcoinCashChecker;
+use pingi\BitcoinCash\Test\AbstractTestCase;
+use pingi\BitcoinCash\Transaction\SignatureHash\SigHash as BchSigHash;
 use BitWasp\Bitcoin\Bitcoin;
 use BitWasp\Bitcoin\Script\Script;
 use BitWasp\Bitcoin\Transaction\OutPoint;

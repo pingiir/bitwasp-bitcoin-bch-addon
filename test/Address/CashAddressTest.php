@@ -1,12 +1,12 @@
 <?php
 
-namespace Btccom\BitcoinCash\Test\Address;
+namespace pingi\BitcoinCash\Test\Address;
 
-use Btccom\BitcoinCash\Address\CashAddress;
-use Btccom\BitcoinCash\Exception\BitcoinCashNetworkRequiredException;
-use Btccom\BitcoinCash\Exception\UnsupportedCashAddressException;
-use Btccom\BitcoinCash\Network\BitcoinCashNetworkInterface;
-use Btccom\BitcoinCash\Test\AbstractTestCase;
+use pingi\BitcoinCash\Address\CashAddress;
+use pingi\BitcoinCash\Exception\BitcoinCashNetworkRequiredException;
+use pingi\BitcoinCash\Exception\UnsupportedCashAddressException;
+use pingi\BitcoinCash\Network\BitcoinCashNetworkInterface;
+use pingi\BitcoinCash\Test\AbstractTestCase;
 use BitWasp\Bitcoin\Bitcoin;
 use BitWasp\Bitcoin\Network\NetworkFactory;
 use BitWasp\Bitcoin\Script\ScriptType;
@@ -15,7 +15,7 @@ use BitWasp\Buffertools\Buffer;
 class CashAddressTest extends AbstractTestCase
 {
     /**
-     * @dataProvider \Btccom\BitcoinCash\Test\Address\AddressCreatorTest::getCashAddressesAndNetwork()
+     * @dataProvider \pingi\BitcoinCash\Test\Address\AddressCreatorTest::getCashAddressesAndNetwork()
      * @param BitcoinCashNetworkInterface $network
      * @param string $addressStr
      * @param string $addrScriptType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Btccom\BitcoinCash\Network;
+namespace pingi\BitcoinCash\Network;
 
 class NetworkFactory
 {

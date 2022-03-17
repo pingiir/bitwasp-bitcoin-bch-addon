@@ -1,18 +1,18 @@
 <?php
 
-namespace Btccom\BitcoinCash\Test\Transaction\Factory;
+namespace pingi\BitcoinCash\Test\Transaction\Factory;
 
-use Btccom\BitcoinCash\Address\AddressCreator;
-use Btccom\BitcoinCash\Network\Networks\BitcoinCashTestnet;
-use Btccom\BitcoinCash\Test\AbstractTestCase;
-use Btccom\BitcoinCash\Transaction\Factory\Checker\CheckerCreator as BitcoinCashCheckerCreator;
+use pingi\BitcoinCash\Address\AddressCreator;
+use pingi\BitcoinCash\Network\Networks\BitcoinCashTestnet;
+use pingi\BitcoinCash\Test\AbstractTestCase;
+use pingi\BitcoinCash\Transaction\Factory\Checker\CheckerCreator as BitcoinCashCheckerCreator;
 use BitWasp\Bitcoin\Bitcoin;
 use BitWasp\Bitcoin\Key\Factory\PrivateKeyFactory;
 use BitWasp\Bitcoin\Script\ScriptFactory;
 use BitWasp\Bitcoin\Transaction\Factory\Signer;
 use BitWasp\Bitcoin\Transaction\Factory\TxBuilder;
 use BitWasp\Bitcoin\Transaction\SignatureHash\SigHash;
-use Btccom\BitcoinCash\Transaction\SignatureHash\SigHash as BchSigHash;
+use pingi\BitcoinCash\Transaction\SignatureHash\SigHash as BchSigHash;
 use BitWasp\Bitcoin\Transaction\TransactionOutput;
 
 class SignerTest extends AbstractTestCase

@@ -1,13 +1,13 @@
 <?php
 
-namespace Btccom\BitcoinCash\Transaction\Factory\Checker;
+namespace pingi\BitcoinCash\Transaction\Factory\Checker;
 
 use BitWasp\Bitcoin\Crypto\EcAdapter\Adapter\EcAdapterInterface;
 use BitWasp\Bitcoin\Crypto\EcAdapter\EcSerializer;
 use BitWasp\Bitcoin\Crypto\EcAdapter\Serializer\Key\PublicKeySerializerInterface;
 use BitWasp\Bitcoin\Crypto\EcAdapter\Serializer\Signature\DerSignatureSerializerInterface;
 use BitWasp\Bitcoin\Script\Interpreter\CheckerBase;
-use Btccom\BitcoinCash\Script\Interpreter\BitcoinCashChecker;
+use pingi\BitcoinCash\Script\Interpreter\BitcoinCashChecker;
 use BitWasp\Bitcoin\Serializer\Signature\TransactionSignatureSerializer;
 use BitWasp\Bitcoin\Transaction\Factory\Checker\CheckerCreatorBase;
 use BitWasp\Bitcoin\Transaction\TransactionInterface;

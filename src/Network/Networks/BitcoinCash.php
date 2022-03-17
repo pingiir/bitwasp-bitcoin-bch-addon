@@ -1,6 +1,6 @@
 <?php
 
-namespace Btccom\BitcoinCash\Network\Networks;
+namespace pingi\BitcoinCash\Network\Networks;
 
 use BitWasp\Bitcoin\Network\Network;
 use BitWasp\Bitcoin\Script\ScriptType;

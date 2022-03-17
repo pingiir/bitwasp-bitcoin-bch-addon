@@ -1,9 +1,9 @@
 <?php
 
-namespace Btccom\BitcoinCash\Address;
+namespace pingi\BitcoinCash\Address;
 
-use Btccom\BitcoinCash\Exception\BitcoinCashNetworkRequiredException;
-use Btccom\BitcoinCash\Exception\UnsupportedCashAddressException;
+use pingi\BitcoinCash\Exception\BitcoinCashNetworkRequiredException;
+use pingi\BitcoinCash\Exception\UnsupportedCashAddressException;
 use BitWasp\Bitcoin\Address\Address;
 use BitWasp\Bitcoin\Address\PayToPubKeyHashAddress;
 use BitWasp\Bitcoin\Address\ScriptHashAddress;
@@ -12,7 +12,7 @@ use BitWasp\Bitcoin\Network\NetworkInterface;
 use BitWasp\Bitcoin\Script\ScriptFactory;
 use BitWasp\Bitcoin\Script\ScriptType;
 use BitWasp\Buffertools\BufferInterface;
-use Btccom\BitcoinCash\Network\BitcoinCashNetworkInterface;
+use pingi\BitcoinCash\Network\BitcoinCashNetworkInterface;
 
 class CashAddress extends Address implements CashAddressInterface
 {

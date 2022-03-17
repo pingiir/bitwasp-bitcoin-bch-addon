@@ -1,10 +1,10 @@
 <?php
 
-namespace Btccom\BitcoinCash\Test\Transaction\Factory\Checker;
+namespace pingi\BitcoinCash\Test\Transaction\Factory\Checker;
 
-use Btccom\BitcoinCash\Script\Interpreter\BitcoinCashChecker;
-use Btccom\BitcoinCash\Test\AbstractTestCase;
-use Btccom\BitcoinCash\Transaction\Factory\Checker\CheckerCreator;
+use pingi\BitcoinCash\Script\Interpreter\BitcoinCashChecker;
+use pingi\BitcoinCash\Test\AbstractTestCase;
+use pingi\BitcoinCash\Transaction\Factory\Checker\CheckerCreator;
 use BitWasp\Bitcoin\Bitcoin;
 use BitWasp\Bitcoin\Script\Script;
 use BitWasp\Bitcoin\Transaction\OutPoint;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Btccom\BitcoinCash\Address;
+namespace pingi\BitcoinCash\Address;
 
 use BitWasp\Bitcoin\Address\AddressInterface;
-use Btccom\BitcoinCash\Network\BitcoinCashNetworkInterface;
+use pingi\BitcoinCash\Network\BitcoinCashNetworkInterface;
 
 interface CashAddressInterface extends AddressInterface
 {

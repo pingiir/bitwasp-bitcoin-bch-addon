@@ -1,6 +1,6 @@
 <?php
 
-namespace Btccom\BitcoinCash\Exception;
+namespace pingi\BitcoinCash\Exception;
 
 class BitcoinCashNetworkRequiredException extends \Exception
 {

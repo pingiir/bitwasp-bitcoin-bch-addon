@@ -1,6 +1,6 @@
 <?php
 
-namespace Btccom\BitcoinCash\Address;
+namespace pingi\BitcoinCash\Address;
 
 use BitWasp\Bitcoin\Address\Base58Address;
 use BitWasp\Bitcoin\Address\Base58AddressInterface;
@@ -16,7 +16,7 @@ use BitWasp\Bitcoin\Script\ScriptInterface;
 use BitWasp\Bitcoin\Script\ScriptType;
 use BitWasp\Buffertools\Buffer;
 use BitWasp\Buffertools\BufferInterface;
-use Btccom\BitcoinCash\Network\BitcoinCashNetworkInterface;
+use pingi\BitcoinCash\Network\BitcoinCashNetworkInterface;
 
 class AddressCreator extends BaseAddressCreator
 {
